@@ -1,0 +1,54 @@
+{
+  "Services": [
+    {
+      "id": 1,
+      "Name": "First"
+    },
+    {
+      "Id": 2,
+      "Name": "Second"
+    },
+    {
+      "Id": 3,
+      "Name": "Third",
+      "Docs": [
+        {
+          "Name": "Tofes 17",
+          "Required": 1
+        },
+        {
+          "Name": "Hitchayvut"
+        }
+      ]
+    }
+  ],
+  "Doctors": [
+    {
+      "Id": 1,
+      "Name": "Shupak",
+      "Title": "Dr."
+    },
+    {
+      "Id": 2,
+      "Name": "Telmi",
+      "Title": "Dr."
+    },
+    {
+      "Id": 3,
+      "Name": "Gross",
+      "Title": "Phd"
+    }
+  ],
+  "Appointments": [
+    {
+      "ServiceId": 1,
+      "DoctorId": 1,
+      "DateTime": ""
+    },
+    "{\"DoctorId\":\"2\",\"ServiceId\":\"2\",\"DateTime\":\"2018-10-20T13:00\"}",
+    "{\"DoctorId\":\"1\",\"ServiceId\":\"1\",\"DateTime\":\"2018-10-20T13:00\"}",
+    "{\"DoctorId\":\"2\",\"ServiceId\":\"1\",\"DateTime\":\"2018-10-20T13:00\"}",
+    "{\"DoctorId\":\"1\",\"ServiceId\":\"2\",\"DateTime\":\"2018-10-20T13:00\"}",
+    "{\"DoctorId\":\"2\",\"ServiceId\":\"2\",\"DateTime\":\"2018-10-19T10:00\"}"
+  ]
+}

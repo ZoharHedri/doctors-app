@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* form component css */
+.form-group{
+  margin: 50px 70px;
+  padding: 10px 10px 20px 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+
+}
+
+/* doctor select css */
+.pick {
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: initial;
+  padding: 10px 20px;
+
+}
+
+select.doctors{
+  padding: 5px 10px;
+  margin: 20px 20px 20px 30px;
+  border: none;
+  border-radius: 4px;
+}
+
+/* neme of the select css */
+select.services{
+  padding: 5px 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 4px;
+  
+  /* margin: 40px; */
+}
+
+.datetime{
+  border: none;
+  border-radius: 4px;
+}
+
+
+/* button css */
+.button{
+  size: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #008CBA;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  margin: 30px 0px ;
+  width: 50%;
+}
+
+.button:hover{
+  color: white;
+}
+
+/* doclist component css */
+.Doctorslist{
+  margin: 50px 70px;
+  padding: 10px 10px 20px 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.doctor-details{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.details{
+  color: chocolate;
+}
